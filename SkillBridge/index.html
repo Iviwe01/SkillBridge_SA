@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBridge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to SkillBridge</h1>
+            <p>Your gateway to mastering new skills and finding your dream job.</p>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#strengths-test">Strengths Test</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Explore Our Courses</h2>
+            <p>Learn from industry experts and get certified in a wide range of skills.</p>
+            <div class="course-grid">
+                <div class="course-card">
+                    <h3>Introduction to Web Development</h3>
+                    <p>Learn the basics of HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="cta-button">Start Now</a>
+                </div>
+                <div class="course-card">
+                    <h3>Advanced JavaScript</h3>
+                    <p>Master advanced JavaScript concepts.</p>
+                    <a href="#" class="cta-button">Start Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jobs">
+        <div class="container">
+            <h2>Search for Jobs</h2>
+            <input type="text" id="job-search" placeholder="Search for jobs...">
+            <button id="job-search-button">Search</button>
+            <div id="job-results">
+                <!-- Job results will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="strengths-test">
+        <div class="container">
+            <h2>Strengths Test</h2>
+            <p>Take this test to discover your strengths and get course recommendations.</p>
+            <form id="strengths-form">
+                <div class="question">
+                    <label>1. Do you prefer working with numbers or words?</label>
+                    <input type="radio" name="q1" value="numbers"> Numbers
+                    <input type="radio" name="q1" value="words"> Words
+                </div>
+                <div class="question">
+                    <label>2. Do you enjoy solving complex problems?</label>
+                    <input type="radio" name="q2" value="yes"> Yes
+                    <input type="radio" name="q2" value="no"> No
+                </div>
+                <!-- Add more questions as needed -->
+                <button type="submit">See Your Strengths</button>
+            </form>
+            <div id="strengths-results">
+                <!-- Test results and course recommendations will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>SkillBridge is an online platform that offers courses to help you advance in your career. Whether you're looking to learn a new skill or enhance existing ones, we have something for everyone.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out.</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SkillBridge. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="chatbot">
+        <div id="chatbot-header">
+            <h3>SkillBridge Assistant</h3>
+            <button id="close-chatbot">X</button>
+        </div>
+        <div id="chatbot-body">
+            <p>Hi! How can I assist you today?</p>
+            <ul>
+                <li><a href="#">What is SkillBridge?</a></li>
+                <li><a href="#">How do I sign up for a course?</a></li>
+                <li><a href="#">What are the payment options?</a></li>
+                <li><a href="#">How do I reset my password?</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

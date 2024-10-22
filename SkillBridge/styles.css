@@ -1,0 +1,330 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+section h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Course Cards */
+.course-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-card h3 {
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    margin-bottom: 15px;
+}
+
+.course-card .cta-button {
+    background-color: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.course-card .cta-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Jobs Section */
+#jobs {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+#job-search {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#job-search-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#job-results {
+    margin-top: 20px;
+}
+
+/* Strengths Test Section */
+#strengths-test {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+#strengths-form .question {
+    margin-bottom: 20px;
+}
+
+#strengths-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#strengths-results {
+    margin-top: 20px;
+}
+
+/* Contact Form */
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Chatbot */
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#chatbot-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#chatbot-header button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#chatbot-body {
+    padding: 15px;
+    color: #333;
+}
+
+#chatbot-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#chatbot-body ul li {
+    margin-bottom: 10px;
+}
+
+#chatbot-body ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#chatbot-body ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+.form-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background-color: #0056b3;
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#jobs {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+#job-search {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#job-search-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#job-results {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.job-item:last-child {
+    border-bottom: none;
+}
+
+/* Add existing styles for other sections here */
